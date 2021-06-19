@@ -1,5 +1,5 @@
 import React from "react";
 
-export function Header({ text }) {
-  return <div className="text-xl text-center">{text}</div>;
+export function Header(props: { text: string }) {
+  return <div className="text-3xl text-center p-4">{props.text}</div>;
 }

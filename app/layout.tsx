@@ -25,7 +25,7 @@ export default function Layout() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="bg-purple-500">
         <Outlet />
         <Scripts />
       </body>
