@@ -1,5 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 
 export default function Home() {
-  return <div>Welcome to Remastered</div>;
+  const [isVisible, setIsVisible] = useState(true);
+  return (
+    <>
+      <motion.div animate={{ opacity: isVisible ? 1 : 0 }}>
+        Welcome to remasterd
+      </motion.div>
+      <button onClick={() => setIsVisible(!isVisible)}>toggle</button>
+    </>
+  );
 }
