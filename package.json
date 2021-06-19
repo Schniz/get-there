@@ -7,7 +7,7 @@
   "private": false,
   "scripts": {
     "dev": "remastered dev",
-    "vercel-build": "remastered build && remastered-vercel postbuild"
+    "vercel-build": "remastered build && remastered-vercel postbuild && find public -print && find dist -print"
   },
   "dependencies": {
     "@remastered/vercel": "^0.1.29",
