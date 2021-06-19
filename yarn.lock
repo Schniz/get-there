@@ -273,6 +273,15 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@remastered/vercel@^0.1.29":
+  version "0.1.29"
+  resolved "https://registry.yarnpkg.com/@remastered/vercel/-/vercel-0.1.29.tgz#f67427e35f3eda9df5ef3a7e6df63a76390f0315"
+  integrity sha512-WInemLreX3af+AosPHiFCBRmJpWlHV3fpm2su3RW5gXCD1FAyfeRZJ5wyMp5bBzb0/ZAuQreztanJPBRYzHJrw==
+  dependencies:
+    fs-extra "^10.0.0"
+    lodash "^4.17.21"
+    node-fetch "^2.6.1"
+
 "@swc/core-android-arm64@^1.2.61":
   version "1.2.61"
   resolved "https://registry.yarnpkg.com/@swc/core-android-arm64/-/core-android-arm64-1.2.61.tgz#83adaa59aac7626e96473c82c8d3e1da1786f62a"
