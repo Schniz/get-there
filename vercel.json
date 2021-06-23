@@ -7,7 +7,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/api/remastered-serverless.js"
+      "destination": "/api/remastered-serverless.ts"
     }
   ]
 }

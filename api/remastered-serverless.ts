@@ -1,4 +1,5 @@
 import { createVercelFunction } from "@remastered/vercel";
+// @ts-expect-error
 import * as serverEntry from "../dist/server/entry.server";
 import path from "path";
 
