@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/remastered-serverless.js": {
+    "api/remastered-serverless.ts": {
       "includeFiles": "dist/*/*"
     }
   },
